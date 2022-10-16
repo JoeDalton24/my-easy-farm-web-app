@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+      crossorigin=""
+    />
+    <style>
+      @font-face {
+        font-family: "Sora";
+        font-weight: 700;
+        src: url(../src/assets/fonts/Sora-Bold.ttf);
+      }
+      @font-face {
+        font-family: "Sora";
+        font-weight: 600;
+        src: url(../src/assets/fonts/Sora-Medium.ttf);
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: "Sora", sans-serif;
+      }
+
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #f3f4f6;
+      }
+
+      #root {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        height: 100%;
+        color: #13131a;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./index.tsx" type="module"></script>
+  </body>
+</html>
