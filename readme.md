@@ -5,12 +5,12 @@ this is a small project that allows to visualize fields with their associated da
 ### STACK 🧩
 
 this project use:
--parcel as bundler [parcel](https://parceljs.org/)
--Typescript [Typescript](https://www.typescriptlang.org//)
--React [React](https://fr.reactjs.org/)
--styled-components [styled-components](https://styled-components.com/)
--redux [redux](https://redux.js.org/)
--lealfelt.js [leafflet](https://react-leaflet.js.org/)
+- parcel as bundler [parcel](https://parceljs.org/)
+- Typescript [Typescript](https://www.typescriptlang.org//)
+- React [React](https://fr.reactjs.org/)
+- styled-components [styled-components](https://styled-components.com/)
+- redux [redux](https://redux.js.org/)
+- lealfelt.js [leafflet](https://react-leaflet.js.org/)
 
 ### Run Project 🚀
 
